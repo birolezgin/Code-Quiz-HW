@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script
+      src="https://kit.fontawesome.com/3da1a747b2.js"
+      crossorigin="anonymous" 
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>QUIZ</title>
+</head>
+<body>
+    <p><button id="my-button">Start</button></p>
+    <h2 class="time"></h2>
+    <div id="main"></div>
+
+    <div class="container mt-2">
+        <div class="row">
+            <div class="col-12">
+
+                <div class="card">
+                    <div class="card-header">
+                        QUIZ
+                    </div>
+                    <div class="card-body">
+                        <h5 id="question" class="card-title">
+                            Question Text
+                        </h5>
+                        <hr>
+                        <div id="buttons">
+                            <div>
+                                <button id="btn0" class="btn btn-primary">
+                                    <span id="choice0">
+                                        Choice 0
+                                    </span>
+                                </button>
+                            </div>
+                            <div>
+                                <button id="btn1" class="btn btn-primary">
+                                    <span id="choice1">
+                                        Choice 1
+                                    </span>
+                                </button>
+                            </div>
+                            <div>
+                                <button id="btn2" class="btn btn-primary">
+                                    <span id="choice2">
+                                        Choice 2
+                                    </span>
+                                </button>
+                            </div>
+                            <div>
+                                <button id="btn3" class="btn btn-primary">
+                                    <span id="choice3">
+                                        Choice 3
+                                    </span>
+                                </button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div id="progress" class="card-footer"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
